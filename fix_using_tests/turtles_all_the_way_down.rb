@@ -11,7 +11,7 @@ end
 def turtle_traits(turtles)
   turtles.map do |turtle|
     if turtle[:traits].is_a?(String)
-      [turtle][:traits]
+      [turtle[:traits]]
     else
       turtle[:traits]
     end
