@@ -11,7 +11,11 @@ end
 def turtle_traits(turtles)
   turtles.map do |turtle|
     turtle[:traits].each do |trait|
-      trait
+      if trait.is_a?
+        trait
+      elsif trail.is_s?
+        [trait]
+      end
     end
   end
 end
