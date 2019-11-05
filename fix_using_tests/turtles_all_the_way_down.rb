@@ -10,10 +10,6 @@ end
 
 def turtle_traits(turtles)
   turtles.map do |turtle|
-    turtle[:traits].each do |trait|
-      result = []
-      result.push(trait)
-      result
-    end
+    if turtle[:traits].is_s?
   end
 end
