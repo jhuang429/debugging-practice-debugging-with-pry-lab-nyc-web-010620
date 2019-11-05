@@ -9,11 +9,7 @@ def turtles
 end
 
 def turtle_traits(turtles)
-  result = []
   turtles.map do |turtle|
-    turtle[:traits].each do |trait|
-      result.push(trait)
-    end
+    turtle[:traits]
   end
-  result
 end
