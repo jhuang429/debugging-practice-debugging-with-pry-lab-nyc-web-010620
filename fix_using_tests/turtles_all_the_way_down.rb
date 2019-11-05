@@ -13,8 +13,8 @@ def turtle_traits(turtles)
     turtle[:traits].each do |trait|
       if trait.is_s?
         [trait]
-    else
-        [trait]
+      else
+        trait
       end
     end
   end
