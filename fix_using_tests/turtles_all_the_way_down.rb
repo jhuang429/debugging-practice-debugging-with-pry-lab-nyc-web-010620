@@ -10,7 +10,7 @@ end
 
 def turtle_traits(turtles)
   turtles.map do |turtle|
-    if turtle[:traits].class.is_s?
+    if turtle[:traits].is_string?
       true
     end
   end
