@@ -15,4 +15,5 @@ def turtle_traits(turtles)
       result.push(trait)
     end
   end
+  result
 end
