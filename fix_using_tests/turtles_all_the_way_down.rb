@@ -11,7 +11,9 @@ end
 def turtle_traits(turtles)
   turtles.map do |turtle|
     if turtle[:traits].is_string?
-      true
+      [turtle]
+    else
+      turtle
     end
   end
 end
